@@ -1,7 +1,7 @@
 {
   "name": "ex-nihilo-frontend",
   "version": "0.1.0",
-  "homepage": "https://jofwitsolution/github.io/bpl-frontend",
+  "homepage": "https://jofwitsolution.github.io/bpl-frontend",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
