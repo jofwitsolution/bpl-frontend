@@ -1,0 +1,16 @@
+{
+  "name": "ex-nihilo",
+  "version": "1.0.0",
+  "description": "scss code for ex-Nihilo",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss ../assets/index.css -w",
+    "start": "npm-run-all --parallel watch:sass"
+  },
+  "author": "Faleye Oluwafemi Joseph",
+  "license": "MIT",
+  "devDependencies": {   
+    "node-sass": "^7.0.1",
+    "npm-run-all": "^4.1.5"
+  }
+}

@@ -1,0 +1,33 @@
+.jof-story {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(
+        to left bottom,
+        rgba($color-black, 0.5),
+        rgba($color-black, 0.5)),
+    url(../../public/img/bpl-14.jpg);
+    background-size: cover;
+    background-position: center;
+
+    @include respond(sm) {
+        height: 40vh;
+    }
+
+    &__row {
+        position: absolute;
+        top: 70%;
+        left: 52%;
+        transform: translate(-50%, -30%);
+
+        @include respond(sm) {
+            width: 100%;
+            left: 52%;
+        }
+    }
+
+    &__text-main {
+        width: 100%;
+    }
+
+    
+}
