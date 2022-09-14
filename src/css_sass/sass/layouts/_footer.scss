@@ -1,0 +1,32 @@
+.jof-footer {
+  font-size: $default-font-size;
+  background-color: $color-grey-light-1;
+  padding-top: 6rem;
+
+  a:hover {
+    color: $color-sky-blue;
+    text-decoration: underline;
+  }
+
+  &__header {
+    color: $color-orange;
+  }
+
+  &__icons {
+    font-size: 2.5rem;
+  }
+
+  &__icon {
+    margin-right: 1.4rem;
+  }
+
+  &__logo-box {
+    @include respond(md) {
+        display: none;
+    }
+  }
+
+  &__logo {
+    height: 13rem;
+  }
+}
