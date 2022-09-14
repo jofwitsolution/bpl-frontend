@@ -365,6 +365,10 @@
       &:active {
         transform: scale(.96);
       }
+
+      @include respond(sm) {
+        margin-bottom: 3rem !important;
+      }
     }
 
     &-card:not(:last-child) {

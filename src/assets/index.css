@@ -588,6 +588,9 @@ body {
     cursor: pointer; }
     .jof-home__sect-2-card:active {
       transform: scale(0.96); }
+    @media only screen and (max-width: 36em) {
+      .jof-home__sect-2-card {
+        margin-bottom: 3rem !important; } }
   .jof-home__sect-2-card:not(:last-child) {
     margin-right: 2rem; }
     @media only screen and (max-width: 36em) {
