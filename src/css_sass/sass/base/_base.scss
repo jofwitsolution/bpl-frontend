@@ -25,10 +25,11 @@ html {
 
 body {
     box-sizing: border-box;
-    padding: 7rem 1rem;
+    padding: 7rem 1rem 0 1rem;
+
 
     @include respond(sm) {
-        padding: 9rem 1.5rem;
+        padding: 9rem 1.5rem 0 1.5rem;
     }
 }
 

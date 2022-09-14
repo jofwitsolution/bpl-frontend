@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Story from "./components/Story";
@@ -18,6 +19,7 @@ function App() {
       </main>
 
       <Story />
+      <Footer />
     </div>
   );
 }
