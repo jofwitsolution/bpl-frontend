@@ -8,16 +8,13 @@ const SectionTwo = () => {
     <section className="jof-home__sect-2 container-fluid">
       <div className="container jof-home__sect-2-container">
         <div className="u-center-text u-margin-bottom-medium">
-          <h2
-            className="heading-secondary u-margin-bottom-small"
-            id="our-services"
-          >
+          <h2 className="heading-secondary" id="our-services">
             Explore our types of support
           </h2>
         </div>
         <div className="card-group jof-home__sect-2-card-group">
           <div className="card jof-home__sect-2-card">
-            <div className="text-center p-4 pt-5">
+            <div className="text-center p-4 pt-5 pb-1">
               <SvgOffice />
             </div>
             <div className="card-body p-4">
@@ -38,7 +35,7 @@ const SectionTwo = () => {
             </div>
           </div>
           <div className="card jof-home__sect-2-card">
-            <div className="text-center p-4 pt-5">
+            <div className="text-center p-4 pt-5 pb-1">
               <SvgUsers />
             </div>
             <div className="card-body p-4">
@@ -60,7 +57,7 @@ const SectionTwo = () => {
             </div>
           </div>
           <div className="card jof-home__sect-2-card">
-            <div className="text-center p-4 pt-5">
+            <div className="text-center p-4 pt-5 pb-1">
               <SvgHome />
             </div>
             <div className="card-body p-4">

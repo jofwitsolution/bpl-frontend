@@ -593,6 +593,9 @@ body {
       padding: 20rem 0;
       padding-bottom: 5rem; } }
   @media only screen and (max-width: 48em) {
+    .jof-home__sect-1 {
+      padding-bottom: 8rem; } }
+  @media only screen and (max-width: 48em) {
     .jof-home__sect-1-container {
       margin-top: -4rem; } }
   @media only screen and (max-width: 48em) {
