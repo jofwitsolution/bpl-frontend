@@ -6,19 +6,19 @@
       rgba($color-black, 0.5),
       rgba($color-black, 0.5)
     ),
-    url(../../public/img/bpl-6-large.jpg);
+    url(../../public/img/bpl-16.jpg);
   background-size: cover;
   background-position: center;
 
   @include respond(sm) {
-    height: 40vh;
+    height: 55vh;
   }
 
   &__row {
     position: absolute;
     width: 50%;
     top: 50%;
-    left: 10%;
+    right: 10%;
     transform: translate(-10%, -50%);
 
     @include respond(sm) {
@@ -28,6 +28,11 @@
       width: 100%;
       left: 52%;
     }
+
+    @include respond(xs) {
+        top: 60%;
+        // transform: translate(-50%, -30%);
+      }
   }
 
   &__text-main {

@@ -1,12 +1,13 @@
 .jof-about-us {
-    
   &__sect-1 {
     background-color: $color-grey-light-1;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 
     &-container {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-evenly;
       padding-top: 7%;
       padding-bottom: 7%;
 
@@ -21,7 +22,8 @@
     }
 
     &__div-1 {
-      flex: 0 1 50%;
+      flex: 0 1 30%;
+      align-self: flex-start;
 
       transition: 1s ease-out;
 
@@ -49,11 +51,97 @@
 
     &__div-2 {
       flex: 0 1 50%;
-      // width: 50%;
+      margin-top: 5rem;
 
       @include respond(sm) {
         flex: 0 1 100%;
+        margin-top: 0rem;
       }
+    }
+  }
+
+  &__sect-2 {
+    background-color: $color-grey-light-1;
+    border-radius: 8px;
+
+    margin-top: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    &-header {
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+
+    &-card {
+      cursor: pointer;
+      color: $color-primary;
+
+      transition: 0.5s ease-out;
+
+      @include respond(md) {
+        margin-bottom: 2rem;
+      }
+
+      &:hover {
+        color: $color-white;
+
+        img {
+          transform: scale(1.15);
+          z-index: 10;
+        }
+
+        .card-body {
+          background-color: $color-primary;
+        }
+      }
+
+      img {
+        transition: 0.5s ease-out;
+      }
+    }
+  }
+
+  &__sect-3 {
+    background-color: $color-grey-light-1;
+    border-radius: 8px;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    &-container {
+        p {
+            margin-bottom: 2rem;
+        }
+    }
+
+    &-header {
+      margin-bottom: 3rem;
+    //   text-align: center;
+
+    @include respond(md) {
+        margin-bottom: 1rem;
+    }
+    }
+
+    &-col-1 {
+        @include respond(md) {
+            margin-bottom: 2rem;
+        }
+
+        li {
+            list-style: none;
+        }
+    }
+
+    &-list-item::before {
+        content: "\2022";
+        color: $color-orange;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
     }
   }
 }

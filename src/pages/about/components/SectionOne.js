@@ -14,15 +14,17 @@ const SectionOne = () => {
         </div>
         <div className="jof-about-us__sect-1__div-2">
           <p className="jof-paragraph-1 u-margin-bottom-small">
-            We were founded in 2022, we are an LTD company on a mission to make
+            We were founded in 2022. An LTD company on a mission to make a
             difference. Our team is made up of passionate people who care about
-            offering a service that comes from the heart.
+            offering a service that comes from the heart. We run various
+            services across the UK, from providing care and support to those in
+            need or providing affordable rented accommodation for those most in
+            need.
           </p>
           <p className="jof-paragraph-1 u-margin-bottom-small">
-            We run a variety of services across the UK, the ultimate aim to
-            build independence through your aspiration, enabling our customers
-            to be part of their community so that they live and feel connected
-            to society.
+            The ultimate aim is to build independence through aspirations. We
+            support our customers to develop core living skills, enabling our
+            customers to be part of a community.
           </p>
         </div>
       </div>
