@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/bpl-frontend/static/css/main.44cbfb05.css",
-    "main.js": "/bpl-frontend/static/js/main.62b2a524.js",
+    "main.js": "/bpl-frontend/static/js/main.693a3b3c.js",
     "static/media/bpl-6-large.jpg": "/bpl-frontend/static/media/bpl-6-large.83e7feafb7b6bbbc80a6.jpg",
     "static/media/bpl-14.jpg": "/bpl-frontend/static/media/bpl-14.095ba8ec9aa0c69eafb9.jpg",
     "static/media/home.jpg": "/bpl-frontend/static/media/home.cbc09b90eb98261e04fb.jpg",
     "index.html": "/bpl-frontend/index.html",
     "main.44cbfb05.css.map": "/bpl-frontend/static/css/main.44cbfb05.css.map",
-    "main.62b2a524.js.map": "/bpl-frontend/static/js/main.62b2a524.js.map"
+    "main.693a3b3c.js.map": "/bpl-frontend/static/js/main.693a3b3c.js.map"
   },
   "entrypoints": [
     "static/css/main.44cbfb05.css",
-    "static/js/main.62b2a524.js"
+    "static/js/main.693a3b3c.js"
   ]
 }
