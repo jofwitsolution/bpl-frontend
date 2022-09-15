@@ -37,5 +37,10 @@
 
   &__text-main {
     width: 100%;
+    text-align: center;
+
+    @include respond(sm) {
+      text-align: initial;
+    }
   }
 }

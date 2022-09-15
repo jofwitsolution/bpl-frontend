@@ -633,7 +633,11 @@ body {
       .jof-about-us-header__row {
         top: 60%; } }
   .jof-about-us-header__text-main {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
+    @media only screen and (max-width: 36em) {
+      .jof-about-us-header__text-main {
+        text-align: initial; } }
 
 .jof-home__sect-1 {
   background-color: #f7f7f7;
@@ -713,7 +717,7 @@ body {
       .jof-about-us__sect-1__text-sub {
         font-size: 1.8rem; } }
   .jof-about-us__sect-1__text-main {
-    margin-bottom: 4rem; }
+    margin-bottom: 3rem; }
   .jof-about-us__sect-1__div-2 {
     flex: 0 1 50%;
     margin-top: 5rem; }
