@@ -583,6 +583,31 @@ body {
   .jof-footer__logo {
     height: 13rem; }
 
+.jof-about-us-header {
+  position: relative;
+  height: 100vh;
+  background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../public/img/bpl-6-large.jpg);
+  background-size: cover;
+  background-position: center; }
+  @media only screen and (max-width: 36em) {
+    .jof-about-us-header {
+      height: 40vh; } }
+  .jof-about-us-header__row {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%, -50%); }
+    @media only screen and (max-width: 36em) {
+      .jof-about-us-header__row {
+        top: 70%;
+        left: 52%;
+        transform: translate(-50%, -30%);
+        width: 100%;
+        left: 52%; } }
+  .jof-about-us-header__text-main {
+    width: 100%; }
+
 .jof-home__sect-1 {
   background-color: #f7f7f7;
   padding: 22rem 0;
@@ -594,7 +619,7 @@ body {
       padding-bottom: 5rem; } }
   @media only screen and (max-width: 48em) {
     .jof-home__sect-1 {
-      padding-bottom: 8rem; } }
+      padding-bottom: 7rem; } }
   @media only screen and (max-width: 48em) {
     .jof-home__sect-1-container {
       margin-top: -4rem; } }
@@ -626,3 +651,41 @@ body {
       background-color: #54aa01; }
       .jof-home__sect-2-card-footer:hover a {
         color: #fff; }
+
+.jof-about-us__sect-1 {
+  background-color: #f7f7f7; }
+  .jof-about-us__sect-1-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    transition: 1s ease-out; }
+    @media only screen and (max-width: 36em) {
+      .jof-about-us__sect-1-container {
+        flex-direction: column;
+        justify-content: center;
+        padding: 10% 10%;
+        padding-left: 3%; } }
+  .jof-about-us__sect-1__div-1 {
+    flex: 0 1 50%;
+    transition: 1s ease-out; }
+    @media only screen and (max-width: 36em) {
+      .jof-about-us__sect-1__div-1 {
+        flex: 0 1 100%;
+        width: 100%; } }
+  .jof-about-us__sect-1__text-sub {
+    font-size: 1.8rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 4rem;
+    color: #54aa01; }
+    @media only screen and (max-width: 36em) {
+      .jof-about-us__sect-1__text-sub {
+        font-size: 1.8rem; } }
+  .jof-about-us__sect-1__text-main {
+    margin-bottom: 4rem; }
+  .jof-about-us__sect-1__div-2 {
+    flex: 0 1 50%; }
+    @media only screen and (max-width: 36em) {
+      .jof-about-us__sect-1__div-2 {
+        flex: 0 1 100%; } }

@@ -1,0 +1,36 @@
+.jof-about-us-header {
+  position: relative;
+  height: 100vh;
+  background-image: linear-gradient(
+      to left bottom,
+      rgba($color-black, 0.5),
+      rgba($color-black, 0.5)
+    ),
+    url(../../public/img/bpl-6-large.jpg);
+  background-size: cover;
+  background-position: center;
+
+  @include respond(sm) {
+    height: 40vh;
+  }
+
+  &__row {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+
+    @include respond(sm) {
+      top: 70%;
+      left: 52%;
+      transform: translate(-50%, -30%);
+      width: 100%;
+      left: 52%;
+    }
+  }
+
+  &__text-main {
+    width: 100%;
+  }
+}
