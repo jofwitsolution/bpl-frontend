@@ -1,7 +1,12 @@
 import React from "react";
+import SectionOne from "./components/SectionOne";
 
 const ContactUs = () => {
-  return <div></div>;
+  return (
+    <>
+      <SectionOne />
+    </>
+  );
 };
 
 export default ContactUs;

@@ -821,3 +821,20 @@ body {
     margin-bottom: 3rem; }
   .jof-our-services__sect-1-text-main {
     margin-bottom: 2rem; }
+
+.jof-contact-us__sect-1 {
+  margin-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem; }
+  @media only screen and (max-width: 48em) {
+    .jof-contact-us__sect-1 {
+      padding-bottom: 2rem; } }
+  .jof-contact-us__sect-1-header {
+    margin-bottom: 2rem;
+    text-align: center; }
+  .jof-contact-us__sect-1-img-2 {
+    border-bottom: 6rem outset #54aa01;
+    margin-left: 3rem; }
+    @media only screen and (max-width: 36em) {
+      .jof-contact-us__sect-1-img-2 {
+        margin-left: 0; } }
