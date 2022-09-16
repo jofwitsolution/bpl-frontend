@@ -16,27 +16,14 @@
   
     &__row {
       position: absolute;
-      width: 50%;
       top: 10%;
       left: 10%;
       transform: translate(-10%, -10%);
   
-    //   @include respond(sm) {
-    //     top: 70%;
-    //     left: 52%;
-    //     transform: translate(-0%, -30%);
-    //     width: 100%;
-    //     left: 52%;
-    //   }
-  
-    //   @include respond(xs) {
-    //       top: 60%;
-    //       // transform: translate(-50%, -30%);
-    //     }
     }
   
     &__text-main {
-      width: 100%;
+      margin-left: 1rem;
       text-align: center;
   
       @include respond(sm) {

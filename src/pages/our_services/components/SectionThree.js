@@ -15,7 +15,7 @@ const SectionThree = () => {
               </h3>
             </div>
             <div className="jof-paragraph-1 jof-our-services__sect-1-paragraph">
-              we will concentrate on developing our customer skills to remain
+              We will concentrate on developing our customer skills to remain
               independent or gain independence. We communicate with our
               customers and other professional agency ensuring that our
               customers have every opportunity to access information and
@@ -31,7 +31,7 @@ const SectionThree = () => {
           <div className="jof-our-services__sect-1-col col-12 col-md-6">
             <img
               src="img/bpl-10.jpg"
-              alt="Supported accommodation"
+              alt="Community Development Service"
               className="img img-fluid"
             />
           </div>

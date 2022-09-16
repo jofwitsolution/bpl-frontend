@@ -653,12 +653,11 @@ body {
       height: 55vh; } }
   .jof-our-services-header__row {
     position: absolute;
-    width: 50%;
     top: 10%;
     left: 10%;
     transform: translate(-10%, -10%); }
   .jof-our-services-header__text-main {
-    width: 100%;
+    margin-left: 1rem;
     text-align: center; }
     @media only screen and (max-width: 36em) {
       .jof-our-services-header__text-main {

@@ -1,6 +1,7 @@
 import React from "react";
 import OurServicesHeader from "./components/OurServicesHeader";
 import SectionOne from "./components/SectionOne";
+import SectionThree from "./components/SectionThree";
 import SectionTwo from "./components/SectionTwo";
 
 const OurServices = () => {
@@ -9,7 +10,7 @@ const OurServices = () => {
       <OurServicesHeader />
       <SectionOne />
       <SectionTwo />
-      <SectionOne />
+      <SectionThree />
     </>
   );
 };

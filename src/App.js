@@ -7,6 +7,7 @@ import Story from "./components/Story";
 import Home from "./pages/home/Home";
 import AboutUs from "./pages/about/AboutUs";
 import OurServices from "./pages/our_services/OurServices";
+import ContactUs from "./pages/contact_us/ContactUs";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <main className="jof-app-main">
         <Routes>
+          <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/our-services" element={<OurServices />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/" element={<Home />} />
