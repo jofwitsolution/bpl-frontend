@@ -1,0 +1,47 @@
+.jof-our-services-header {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(
+        to left bottom,
+        rgba($color-black, 0.5),
+        rgba($color-black, 0.5)
+      ),
+      url(../../public/img/bpl-21.jpg);
+    background-size: cover;
+    background-position: bottom;
+  
+    @include respond(sm) {
+      height: 55vh;
+    }
+  
+    &__row {
+      position: absolute;
+      width: 50%;
+      top: 10%;
+      left: 10%;
+      transform: translate(-10%, -10%);
+  
+    //   @include respond(sm) {
+    //     top: 70%;
+    //     left: 52%;
+    //     transform: translate(-0%, -30%);
+    //     width: 100%;
+    //     left: 52%;
+    //   }
+  
+    //   @include respond(xs) {
+    //       top: 60%;
+    //       // transform: translate(-50%, -30%);
+    //     }
+    }
+  
+    &__text-main {
+      width: 100%;
+      text-align: center;
+  
+      @include respond(sm) {
+        text-align: initial;
+      }
+    }
+  }
+  

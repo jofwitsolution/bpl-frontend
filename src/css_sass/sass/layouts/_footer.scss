@@ -29,4 +29,10 @@
   &__logo {
     height: 13rem;
   }
+
+  &__mailto {
+    @include respond(xxs) {
+      font-size: 1.2rem;
+    }
+  }
 }

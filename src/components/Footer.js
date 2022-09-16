@@ -18,7 +18,9 @@ const Footer = () => {
               <a href="tel:+440782-888-7031">0782 888 7031</a>
               <br />
               <a href="mailto: info@betterplaceliving.co.uk">
-                info@betterplaceliving.co.uk
+                <span className="jof-footer__mailto">
+                  info@betterplaceliving.co.uk
+                </span>
               </a>
             </address>
 
