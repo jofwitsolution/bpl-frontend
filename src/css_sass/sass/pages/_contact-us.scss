@@ -1,5 +1,4 @@
 .jof-contact-us {
-
   &__sect-1 {
     // background-color: $color-grey-light-1;
     // border-radius: 8px;
@@ -13,17 +12,74 @@
     }
 
     &-header {
-        margin-bottom: 2rem;
-        text-align: center;
+      margin-bottom: 2rem;
+      text-align: center;
     }
 
-    &-img-2 {
-        border-bottom: 6rem outset $color-primary;
-        margin-left: 3rem;
+    &-img-1 {
+        cursor: pointer;
+        transition: .6s ease-out;
 
-        @include respond(sm) {
-            margin-left: 0;
+        &:hover {
+            transform: scale(1.02);
+            .jof-contact-us__sect-1-col-1-text {
+                margin-left: 4rem;
+            }
         }
+    }
+
+    &-col-1-row-2 {        
+        transition: .6s ease-out;
+    }
+
+    &-col-1-row-1:hover ~ &-col-1-row-2 {        
+        margin-left: 6rem;
+    }
+
+    &-col-1-text {
+        letter-spacing: 0.5rem;
+        color: $color-primary;
+    }
+
+    &-col-2 {
+      margin-left: 3rem;
+
+      @include respond(sm) {
+          margin-left: 0;
+      }
+    }
+
+    &-box {
+      background-color: $color-primary;
+      text-align: center;
+      padding: 2rem 0;
+      cursor: pointer;
+      color: $color-white;
+
+      transition: .6s ease-out;
+
+      h2 {
+        color: $color-white;
+      }
+
+      i {
+        font-size: 2rem;
+        margin-left: 6rem;
+        visibility: hidden;
+        opacity: 0;
+
+        transition: .6s ease-out;
+      }
+
+      &:hover {
+        background-color: rgba($color-primary, .7);
+
+        i {
+            margin-left: 2rem;
+            visibility: visible;
+            opacity: 1;
+          }
+      }
     }
   }
 }
