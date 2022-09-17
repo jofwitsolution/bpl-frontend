@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/bpl-frontend/static/css/main.6d88b250.css",
-    "main.js": "/bpl-frontend/static/js/main.1350a2de.js",
+    "main.css": "/bpl-frontend/static/css/main.65abf9c3.css",
+    "main.js": "/bpl-frontend/static/js/main.e54b0ed7.js",
     "static/media/bpl-13.jpg": "/bpl-frontend/static/media/bpl-13.e7c45253279b51e4fb53.jpg",
     "static/media/bpl-16.jpg": "/bpl-frontend/static/media/bpl-16.4a7b9628746bc78fef5f.jpg",
     "static/media/bpl-14.jpg": "/bpl-frontend/static/media/bpl-14.095ba8ec9aa0c69eafb9.jpg",
     "static/media/home.jpg": "/bpl-frontend/static/media/home.cbc09b90eb98261e04fb.jpg",
     "static/media/bpl-21.jpg": "/bpl-frontend/static/media/bpl-21.e4d72d1c1ea5b14baf6e.jpg",
     "index.html": "/bpl-frontend/index.html",
-    "main.6d88b250.css.map": "/bpl-frontend/static/css/main.6d88b250.css.map",
-    "main.1350a2de.js.map": "/bpl-frontend/static/js/main.1350a2de.js.map"
+    "main.65abf9c3.css.map": "/bpl-frontend/static/css/main.65abf9c3.css.map",
+    "main.e54b0ed7.js.map": "/bpl-frontend/static/js/main.e54b0ed7.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d88b250.css",
-    "static/js/main.1350a2de.js"
+    "static/css/main.65abf9c3.css",
+    "static/js/main.e54b0ed7.js"
   ]
 }
