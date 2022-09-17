@@ -1,0 +1,23 @@
+.jof-map {
+    background-image: linear-gradient(180deg, rgba($color-black, .5), rgba($color-black, 0.6)), url(../../public/img/bpl-13.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    &__outer {
+        position:relative;
+        text-align: center;
+        height:100%;
+        width:100%;
+    }
+    
+    &__canvas {
+        overflow:hidden;
+        background: none!important;
+        height:100%;
+        width:100%;
+    }
+}

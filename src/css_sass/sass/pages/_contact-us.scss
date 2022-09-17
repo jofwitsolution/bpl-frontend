@@ -82,4 +82,134 @@
       }
     }
   }
+
+  &__sect-2 {
+    background-color: $color-grey-light-1;
+    border-radius: 8px;
+
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+
+    @include respond(md) {
+      padding-bottom: 2rem;
+    }
+
+    &-col-1 {
+
+        @include respond(md) {
+            margin-bottom: 2rem;
+        }
+
+        h3 {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+    }
+
+    &-col-2 {
+
+        padding-left: 10rem;
+
+        @include respond(md) {
+            padding-left: 0;
+        }
+
+        h3 {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        
+        h4 {
+            // font-size: 2rem;
+            font-weight: 600;
+        }
+
+        a:hover {
+            color: $color-primary;
+            text-decoration: underline;
+        }
+    }
+}
+}
+
+.page-contact-us {
+
+    &__form {
+        font-size: $small-font-size;
+    }
+
+    &__form-row {
+        margin-bottom: 1rem;
+        
+        label {
+            display: block;
+            font-weight: 600;
+            color: $color-secondary-dark;
+
+            span {
+                color: red;
+            }
+        }
+
+        input {
+            border: 3px solid $color-black;
+            width: 60%;
+            height: 4rem;
+            font-size: 1.7rem;
+            padding-left: 8px;
+            outline: none;
+
+            @include respond(sm) {
+                width: 80%;
+                height: 3.5rem;
+            }
+
+            &:focus {
+                border: 2px solid $color-primary;
+            }
+        }
+
+        textarea {
+            border: 3px solid $color-black;
+            width: 80%;
+            padding-left: .8rem;
+            padding-top: .8rem;
+            font-size: 1.7rem;
+            outline: none;
+            resize: none;
+
+            @include respond(sm) {
+                width: 90%;
+            }
+            &:focus {
+                border: 2px solid $color-primary;
+            }
+        }
+
+        button {
+            text-align: center;
+            width: 8rem;
+            height: 3.5rem;
+            border-radius: 5px;
+            border-color: $color-white;
+            cursor: pointer;
+            background-color: $color-primary;
+            color: $color-white;
+
+            &:hover, &:active {
+                background-color: $color-white;
+                color: $color-primary;
+                font-weight: 700;
+                border-color: $color-primary;
+            }
+        }
+
+        p {
+            font-size: 1.3rem;
+            color: red;
+            margin-bottom: .5rem;
+        }
+    }
 }
