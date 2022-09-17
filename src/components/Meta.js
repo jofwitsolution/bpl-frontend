@@ -14,7 +14,7 @@ const Meta = ({ title, description, keywords }) => {
 Meta.defaultProps = {
   title: "Better Place Living",
   description:
-    "Better Place Living key objectives revolve around independence, we strive to make each client capable and able to get back to their feet in the community, from walks and outgoings to daily house tasks such as cleaning and cooking. We are always there for the extra little bit of support if our clients require it.",
+    "At Better place living our key objectives revolve around promoting independence. Our role is to give our customers the tools they need to get back on their feet. Our team of professional are dedicated to creating a society where vulnerable people can be heard, we work with our customers so that our support is led by our customer and their choices.",
   keywords:
     "better place living, betterlivingplace, betterplace, betterplaceliving.co.uk, betterliving, bpl",
 };
