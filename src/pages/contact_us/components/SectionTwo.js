@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import { toast } from "react-toastify";
+import ClipLoader from "react-spinners/ClipLoader";
 import Joi from "joi-browser";
 import emailjs, { init } from "@emailjs/browser";
 
@@ -12,16 +13,18 @@ const SectionTwo = () => {
 
   const formRef = useRef();
 
+  let [loading, setLoading] = useState(false);
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
+  // const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
   const schema = {
     name: Joi.string().required().label("Full name"),
     email: Joi.string().required().email().label("Email"),
-    subject: Joi.string().required().label("Subject"),
+    // subject: Joi.string().required().label("Subject"),
     message: Joi.string().required().label("Message"),
   };
 
@@ -30,12 +33,11 @@ const SectionTwo = () => {
 
     setErrorMessage("");
 
-    console.log("submitted");
+    // console.log("submitted");
 
     const obj = {
       name,
       email,
-      subject,
       message,
     };
 
@@ -46,15 +48,18 @@ const SectionTwo = () => {
     if (error) {
       setErrorMessage(error.details[0].message);
     } else {
+      setLoading(true);
       // (serviceID, templateID, templateParams, publicKey)
       emailjs.sendForm(serviceId, templateId, formRef.current, publicKey).then(
         (result) => {
           toast("Message sent successfully", { className: "submit-feedback" });
-          console.log(result.text);
+          setLoading(false);
+          // console.log(result.text);
         },
         (error) => {
           toast("Message not successful", { className: "submit-feedback" });
-          console.log(error.text);
+          setLoading(false);
+          // console.log(error.text);
         }
       );
     }
@@ -97,7 +102,7 @@ const SectionTwo = () => {
                   onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
-              <div className="page-contact-us__form-row">
+              {/* <div className="page-contact-us__form-row">
                 <label htmlFor="subject">
                   Subject <span>*</span>
                 </label>
@@ -107,7 +112,7 @@ const SectionTwo = () => {
                   name="subject"
                   onChange={(e) => setSubject(e.target.value)}
                 />
-              </div>
+              </div> */}
               <div className="page-contact-us__form-row">
                 <label htmlFor="message">
                   Message <span>*</span>
@@ -120,8 +125,9 @@ const SectionTwo = () => {
                 />
               </div>
               <div className="page-contact-us__form-row">
+                <ClipLoader color="#54aa01" loading={loading} />
                 <p>{errorMessage}</p>
-                <button type="submit">Submit</button>
+                {!loading && <button type="submit">Send</button>}
               </div>
             </form>
           </div>
